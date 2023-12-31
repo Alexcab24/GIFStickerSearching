@@ -13,8 +13,6 @@ useEffect(() => {
 
 
 
-
-
 const getData = async() => {
   try {
     await fetch(URL)
@@ -35,6 +33,5 @@ return {
     api,
     isLoading,    
 }
-
   
 }
